@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gallery | Department Student Association</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="topbar">
+    <a href="index.html" class="brand">
+      <span class="brand-logo"><img src="images/amsa.jpeg" alt="Department logo"></span>
+      <span class="brand-text">
+        <strong>Applied Mechanics Scholars Association</strong>
+        <small>EMPOWER &middot; CONNECT &middot; LEAD</small>
+      </span>
+    </a>
+    <div class="topbar-right">
+      <a href="#" class="pill pill-outline">&#9733; RESEARCH PALOOZA '26</a>
+      <a href="https://www.iitm.ac.in/" class="pill pill-solid">&#9679; INDIAN INSTITUTE OF TECHNOLOGY MADRAS</a>
+      <a href="https://www.iitm.ac.in"><span class="univ-logo"><img src="images/iitmlogo.jpeg" alt="University logo"></span></a>
+    </div>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">&#9776;</button>
+  </div>
+
+  <nav class="navbar" id="navbar">
+    <ul>
+      <li><a href="index.html" >Home</a></li>
+      <li class="has-dropdown">
+        <a href="about.html" >About Us <span class="caret">&#9662;</span></a>
+        <ul class="dropdown">
+          <li><a href="about.html#vision">Our Vision</a></li>
+          <li><a href="team.html">Our Team</a></li>
+          <!-- <li><a href="about.html#history">History</a></li> -->
+        </ul>
+      </li>
+      <li><a href="events.html">Events</a></li>
+      <li><a href="students-hub.html">Students Hub</a></li>
+      <li><a href="partner.html">Partner With Us</a></li>
+      <li><a href="gallery.html" class="active">Gallery</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<div class="page-banner">
+  <h1>Gallery</h1>
+  <p>These images capture our students engaging in events, academic symposiums, where they utilize critical thinking and presentation skills to showcase their specialised knowledge</p>
+</div>
+
+<!--
+  To add a new event's photos: copy one whole ".gallery-group" block
+  (from <div class="gallery-group" ...> to its closing </div>), paste it
+  in, change the id/heading, and add/remove ".gallery-item" links inside
+  — the grid reflows on its own.
+
+  Each photo is wrapped in a link pointing at its own image, with
+  target="_blank", so clicking it opens that photo by itself in a new
+  tab at full size.
+-->
+<section class="gallery">
+
+  <div class="gallery-group" id="event-42-explained">
+    <h2>42 Explained!! &ndash; Inclusive Publishing in Research</h2>
+    <div class="gallery-grid">
+      <a class="gallery-item" href="images/42_explained_Githa_Ann/Inclusive Publishing in Research_01.jpg" target="_blank" rel="noopener">
+        <img src="images/42_explained_Githa_Ann/Inclusive Publishing in Research_01.jpg" alt="42 Explained event poster" >
+      </a>
+      <a class="gallery-item" href="images/42_explained_Githa_Ann/Inclusive Publishing in Research_02.jpg" target="_blank" rel="noopener">
+        <img src="images/42_explained_Githa_Ann/Inclusive Publishing in Research_02.jpg" alt="42 Explained event photo"  >
+      </a>
+    </div>
+  </div>
+
+  <div class="gallery-group" id="event-chalk-talk">
+    <h2>Chalk Talk by Our Scholars</h2>
+    <div class="gallery-grid">
+      <a class="gallery-item" href="images/Chalk Talk by Our Scholars/IMG_01.jpg" target="_blank" rel="noopener">
+        <img src="images/Chalk Talk by Our Scholars/IMG_01.jpg" alt="Chalk Talk photo 1">
+      </a>
+      <a class="gallery-item" href="images/Chalk Talk by Our Scholars/IMG_02.jpg" target="_blank" rel="noopener">
+        <img src="images/Chalk Talk by Our Scholars/IMG_02.jpg" alt="Chalk Talk photo 2">
+      </a>
+      <a class="gallery-item" href="images/Chalk Talk by Our Scholars/IMG_03.jpg" target="_blank" rel="noopener">
+        <img src="images/Chalk Talk by Our Scholars/IMG_03.jpg" alt="Chalk Talk photo 3">
+      </a>
+      <a class="gallery-item" href="images/Chalk Talk by Our Scholars/IMG_04.jpg" target="_blank" rel="noopener">
+        <img src="images/Chalk Talk by Our Scholars/IMG_04.jpg" alt="Chalk Talk photo 4">
+      </a>
+      <a class="gallery-item" href="images/Chalk Talk by Our Scholars/IMG_05.jpg" target="_blank" rel="noopener">
+        <img src="images/Chalk Talk by Our Scholars/IMG_05.jpg" alt="Chalk Talk photo 5">
+      </a>
+    </div>
+  </div>
+
+  <div class="gallery-group" id="event-fun-fusion">
+    <h2>Fun Fusion with B.Tech First Years</h2>
+    <div class="gallery-grid">
+      <a class="gallery-item" href="images/Fun Fusion/IMG_(1).jpg" target="_blank" rel="noopener">
+        <img src="images/Fun Fusion/IMG_(1).jpg" alt="Fun Fusion photo 1">
+      </a>
+      <a class="gallery-item" href="images/Fun Fusion/IMG_(2).jpg" target="_blank" rel="noopener">
+        <img src="images/Fun Fusion/IMG_(2).jpg" alt="Fun Fusion photo 2">
+      </a>
+      <a class="gallery-item" href="images/Fun Fusion/IMG_(3).jpg" target="_blank" rel="noopener">
+        <img src="images/Fun Fusion/IMG_(3).jpg" alt="Fun Fusion photo 3">
+      </a>
+    </div>
+  </div>
+
+</section>
+
+<footer>
+  <p>Contact us at <a href="mailto:amsa@smail.iitm.ac.in">amsa@smail.iitm.ac.in</a></p>
+  <div class="socials">
+    <a href="#" target="_blank" rel="noopener">Twitter</a>
+    <a href="#" target="_blank" rel="noopener">Instagram</a>
+    <a href="#" target="_blank" rel="noopener">LinkedIn</a>
+  </div>
+  <p class="copyright">&copy; 2026 AMSA All rights reserved</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

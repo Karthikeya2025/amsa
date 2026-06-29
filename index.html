@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Home | Department Student Association</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ============ HEADER : utility bar + nav ============ -->
+<header class="site-header">
+  <div class="topbar">
+    <a href="index.html" class="brand">
+      <span class="brand-logo"><img src="images/amsa.jpeg" alt="Department logo"></span>
+      <span class="brand-text">
+        <strong>Applied Mechanics Scholars Association</strong>
+        <small>EMPOWER &middot; CONNECT &middot; LEAD</small>
+      </span>
+    </a>
+    <div class="topbar-right">
+      <a href="#" class="pill pill-outline">&#9733; RESEARCH PALOOZA '26</a>
+      <a href="https://www.iitm.ac.in/" class="pill pill-solid">&#9679; INDIAN INSTITUTE OF TECHNOLOGY MADRAS</a>
+      <a href="https://www.iitm.ac.in"><span class="univ-logo"><img src="images/iitmlogo.jpeg" alt="University logo"></span></a>
+    </div>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">&#9776;</button>
+  </div>
+
+  <nav class="navbar" id="navbar">
+    <ul>
+      <li><a href="index.html" class="active">Home</a></li>
+      <li class="has-dropdown">
+        <a href="about.html" >About Us <span class="caret">&#9662;</span></a>
+        <ul class="dropdown">
+          <li><a href="about.html#vision">Our Vision</a></li>
+          <li><a href="team.html">Our Team</a></li>
+          <!-- <li><a href="about.html#history">History</a></li> -->
+        </ul>
+      </li>
+      <li><a href="events.html">Events</a></li>
+      <li><a href="students-hub.html">Students Hub</a></li>
+      <li><a href="partner.html">Partner With Us</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<!-- ============ HERO SLIDESHOW ============ -->
+<section class="hero">
+  <div class="slideshow" id="slideshow">
+    <div class="slide active">
+      <!-- TODO: replace with your image -->
+      <img src="images/APL.jpg" alt="Slide 1">
+      <p class="slide-caption">AMSA Premier League</p>
+    </div>
+    <div class="slide">
+      <img src="images/palooza.jpg" alt="Slide 2">
+      <p class="slide-caption">AMSA Research Palooza </p>
+    </div>
+    <div class="slide">
+      <img src="images/isro.jpg" alt="Slide 3">
+      <p class="slide-caption">ISRO Visit</p>
+    </div>
+    <div class="slide">
+      <img src="images/ashok.jpg" alt="Slide 4">
+      <p class="slide-caption">Ashok Leyland Visit</p>
+    </div>
+    <div class="slide">
+      <img src="images/guidance.jpg" alt="Slide 5">
+      <p class="slide-caption">Guidance Talk</p>
+    </div>
+
+    <button class="slide-arrow prev" id="prevSlide" aria-label="Previous slide">&#8249;</button>
+    <button class="slide-arrow next" id="nextSlide" aria-label="Next slide">&#8250;</button>
+    <div class="slide-dots" id="slideDots"></div>
+  </div>
+</section>
+
+<!-- ============ ABOUT TEASER ============ -->
+<section class="about">
+  <h2>About Us</h2>
+  <p>The Indian Institute of Technology Madras's Applied Mechanics Student Association (AMSA) is a student-run group that seeks to build a community that grows and thrives over time and gains from the knowledge and experiences of its members. AMSA offers a venue for students to interact with one another, gain knowledge from one another, and develop as a community.
+
+Workshops, seminars, guest lectures, and social events are just a few of the events and activities that AMSA plans throughout the year. Students can enjoy themselves while developing new skills and networking with professionals at these events.</p>
+  <a href="about.html" class="card-link">Read more about us &rarr;</a>
+</section>
+
+<!-- ============ QUICK LINKS TO OTHER PAGES ============ -->
+<section class="quick-links">
+  <h2>Explore</h2>
+  <div class="card-grid quicklink-grid">
+    <a href="events.html" class="quicklink-card">
+      <h3>Events</h3>
+      <p>What's coming up this semester.</p>
+    </a>
+    <a href="team.html" class="quicklink-card">
+      <h3>Our Team</h3>
+      <p>Meet the people behind the association.</p>
+    </a>
+    <a href="students-hub.html" class="quicklink-card">
+      <h3>Students Hub</h3>
+      <p>Resources, clubs and mentorship.</p>
+    </a>
+    <a href="partner.html" class="quicklink-card">
+      <h3>Partner With Us</h3>
+      <p>Collaborate with the department.</p>
+    </a>
+    <a href="gallery.html" class="quicklink-card">
+      <h3>Gallery</h3>
+      <p>Photos from past events.</p>
+    </a>
+  </div>
+</section>
+
+<!-- ============ FOOTER ============ -->
+<footer>
+  <p>Contact us at <a href="mailto:amsa@smail.iitm.ac.in">amsa@smail.iitm.ac.in</a></p>
+  <div class="socials">
+    <a href="#" target="_blank" rel="noopener">Twitter</a>
+    <a href="#" target="_blank" rel="noopener">Instagram</a>
+    <a href="#" target="_blank" rel="noopener">LinkedIn</a>
+  </div>
+  <p class="copyright">&copy; 2026 AMSA All rights reserved</p>
+</footer>
+
+
+<script src="script.js"></script>
+</body>
+</html>

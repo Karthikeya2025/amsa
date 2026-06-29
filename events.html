@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Events | Department Student Association</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="topbar">
+    <a href="index.html" class="brand">
+      <span class="brand-logo"><img src="images/amsa.jpeg" alt="Department logo"></span>
+      <span class="brand-text">
+        <strong>Applied Mechanics Scholars Association</strong>
+        <small>EMPOWER &middot; CONNECT &middot; LEAD</small>
+      </span>
+    </a>
+    <div class="topbar-right">
+      <a href="#" class="pill pill-outline">&#9733; RESEARCH PALOOZA '26</a>
+      <a href="https://www.iitm.ac.in/" class="pill pill-solid">&#9679; INDIAN INSTITUTE OF TECHNOLOGY MADRAS</a>
+      <a href="https://www.iitm.ac.in"><span class="univ-logo"><img src="images/iitmlogo.jpeg" alt="University logo"></span></a>
+    </div>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">&#9776;</button>
+  </div>
+
+  <nav class="navbar" id="navbar">
+    <ul>
+      <li><a href="index.html" >Home</a></li>
+      <li class="has-dropdown">
+        <a href="about.html" >About Us <span class="caret">&#9662;</span></a>
+        <ul class="dropdown">
+          <li><a href="about.html#vision">Our Vision</a></li>
+          <li><a href="team.html">Our Team</a></li>
+          <!-- <li><a href="about.html#history">History</a></li> -->
+        </ul>
+      </li>
+      <li><a href="events.html" class="active">Events</a></li>
+      <li><a href="students-hub.html">Students Hub</a></li>
+      <li><a href="partner.html">Partner With Us</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<div class="page-banner">
+  <h1>Events</h1>
+  <p>What's been happening, in order</p>
+</div>
+
+<!--
+  To add a new event: copy one ".timeline-item" block (from the opening
+  <div class="timeline-item"> to its closing </div>), paste it either at
+  the top (most recent) or bottom (oldest) of the list, and edit the
+  title, date and description. The line and dot draw themselves
+  automatically — no CSS changes needed.
+
+  The "View photos" link points to an id on gallery.html — give the
+  matching photo group on that page the same id so the link jumps
+  straight to it.
+-->
+<section class="events">
+  <div class="timeline">
+
+    <div class="timeline-item">
+      <span class="timeline-dot"></span>
+      <div class="timeline-content">
+        <h3>42 Explained!! &ndash; Inclusive Publishing in Research</h3>
+        <span class="timeline-date">22nd September 2025</span>
+        <p>Ms. Githa Ann George delivered a talk on inclusive publishing practices in research, covering manuscript evaluation, publishing null results, data publishing and research evaluation, along with editorial and publishing career paths for early-career researchers.</p>
+        <a href="gallery.html#event-42-explained" class="card-link">View photos &rarr;</a>
+      </div>
+    </div>
+
+    <div class="timeline-item">
+      <span class="timeline-dot"></span>
+      <div class="timeline-content">
+        <h3>Chalk Talk by Our Scholars</h3>
+        <span class="timeline-date">19th September 2025</span>
+        <p>The second Chalk Talk of the year featured two of our scholars presenting their ongoing research within the department, followed by an open discussion with the audience.</p>
+        <a href="gallery.html#event-chalk-talk" class="card-link">View photos &rarr;</a>
+      </div>
+    </div>
+
+    <div class="timeline-item">
+      <span class="timeline-dot"></span>
+      <div class="timeline-content">
+        <h3>Fun Fusion with B.Tech First Years</h3>
+        <span class="timeline-date">12th September 2025</span>
+        <p>A special interactive session was organised for the first-year B.Tech batch as a stress-buster, giving them a platform to pause, reflect and share their experiences from their first few weeks on campus.</p>
+        <a href="gallery.html#event-fun-fusion" class="card-link">View photos &rarr;</a>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<footer>
+  <p>Contact us at <a href="mailto:amsa@smail.iitm.ac.in">amsa@smail.iitm.ac.in</a></p>
+  <div class="socials">
+    <a href="#" target="_blank" rel="noopener">Twitter</a>
+    <a href="#" target="_blank" rel="noopener">Instagram</a>
+    <a href="#" target="_blank" rel="noopener">LinkedIn</a>
+  </div>
+  <p class="copyright">&copy; 2026 AMSA All rights reserved</p>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
